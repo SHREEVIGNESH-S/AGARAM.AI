@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #080A0D;
+    --bg-secondary: #101419;
+    --bg-card: #151A20;
+    --bg-card-elevated: #1B222A;
+    --primary-orange: #FF681F;
+    --orange-hover: #FF8247;
+    --text-primary: #F4F5F7;
+    --text-secondary: #9299A3;
+    --border-color: #292F36;
+    --success: #27C281;
+    --warning: #F2B84B;
+    --error: #EF6262;
+  }
+
+  body {
+    background-color: #080A0D;
+    color: #F4F5F7;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.agaram-grid-bg {
+  background-color: #080A0D;
+  background-image: 
+    linear-gradient(to right, rgba(41, 47, 54, 0.38) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(41, 47, 54, 0.38) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.agaram-brand-font {
+  font-family: 'Fredoka', 'Inter', system-ui, sans-serif;
+}
+
+/* Custom scrollbars for clean futuristic dark aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080A0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292F36;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF681F;
+}

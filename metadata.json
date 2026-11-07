@@ -1,0 +1,6 @@
+{
+  "name": "AGARAM – AI-Powered Adaptive Learning Platform",
+  "description": "Personal learning companion featuring adaptive AI tutoring, spaced repetition, hindsight memory, and real-time knowledge gap analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
